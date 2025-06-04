@@ -25,3 +25,4 @@ npm run dev
 Set the `LLM_ENDPOINT` environment variable to the HTTP endpoint of your locally hosted LLM (LM Studio, oobabooga, Ollama, etc.).
 For testing without a model, set `MOCK_RESPONSE` when starting the server to return a fixed reply.
 Additional agents like `browse`, `readFile`, and `writeFile` are available in `server/agents.js`.
+

@@ -20,6 +20,7 @@ app.post('/api/chat', async (req, res) => {
       });
       return;
     }
+    
     const response = await fetch(LLM_ENDPOINT, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
