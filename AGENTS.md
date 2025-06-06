@@ -18,3 +18,8 @@ repo:
    - The testing section of the PR should capture the output of the commands
      listed in step 1.
 
+4. **Feature Planning**
+   - Planned enhancements and task breakdowns live in `FEATURES.md`. Review that
+     file before implementing new functionality so changes align with the
+     documented roadmap.
+
